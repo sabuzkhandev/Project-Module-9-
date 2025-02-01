@@ -1,0 +1,29 @@
+Project (Module 9)
+Project: One Page App Marketing Landing Page
+
+
+## Requirements
+Header (Navigation Bar)
+Sticky header with a logo and navigation links (Home, Features, Pricing, Contact).
+
+
+Hero Section
+A welcoming message with a headline, short description, a call-to-action button, and an image positioned on the right for desktop and above the text for mobile.
+
+
+Features Section
+Display three feature boxes using CSS Grid.
+Each feature should include a title, short description, and hover effect.
+
+
+Pricing Section
+Show three pricing plans (Basic, Pro, Enterprise) using Flexbox.
+Each plan should have a title, price, list of features, and hover effect.
+
+
+Footer Section
+Contains copyright information and contact details.
+
+
+Responsive Design
+Ensure the page adjusts well for different screen sizes using media queries.
