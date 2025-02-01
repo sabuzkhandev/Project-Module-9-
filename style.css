@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  z-index: 1000;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px;
+}
+.hero img {
+  max-width: 100%;
+}
+
+.cust_btn {
+  background-color: #f15757; /* Updated button color */
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, 'Segoe UI', 'Liberation Sans',
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.cust_btn:hover,
+.cust_btn:focus {
+  background-color: #d84646; /* Darker shade for hover */
+}
+
+.cust_btn:focus {
+  box-shadow: 0 0 0 4px rgba(241, 87, 87, 0.3); /* Adjusted focus shadow */
+}
+
+.cust_btn:active {
+  background-color: #b53b3b; /* Even darker shade for active state */
+  box-shadow: none;
+}
+.subtext {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+  }
+}
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  text-align: center;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.feature-box {
+  background: #f4f4f4;
+  padding: 20px;
+  transition: 0.3s;
+}
+.feature-box:hover {
+  background: #ddd;
+}
+/* Pricing Section */
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pricing-plan {
+  background: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  transition: 0.3s;
+}
+.pricing-plan:hover {
+  background: #ddd;
+}
+/* Contact Section */
+.contact {
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+}
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact input,
+.contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
